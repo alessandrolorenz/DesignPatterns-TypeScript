@@ -1,8 +1,8 @@
 import IDbProduct from './IDbProduct';
 
-export default class MySQLProduct implements IDbProduct {
+export default class MONGOProduct implements IDbProduct {
   getProductById(productId: number): string {
-    return "MYSQL produto " + productId
+    return "MONGO produto " + productId
     
   }
 }
