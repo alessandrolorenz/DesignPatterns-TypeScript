@@ -1,6 +1,7 @@
+import IVehicle from './IVehicle';
 import IVehicleMotorcycle from './IVehicleMotorcycle';
 
-export default class Motorccycle implements IVehicleMotorcycle {
+export default class Motorccycle implements IVehicleMotorcycle, IVehicle{
   constructor(
     color: string,
      year: number, 
