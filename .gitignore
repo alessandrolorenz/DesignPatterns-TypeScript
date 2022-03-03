@@ -1,1 +1,14 @@
-node_modules
+.gitignore
+==========# Cache files  
+.eslintcache
+.npm
+*.tsbuildinfo# Directories
+dist/
+node_modules/
+.env.
+.env.test # Logs
+*.log
+logs
+npm-debug.log*
+.DS_Store  
+notes.md 
