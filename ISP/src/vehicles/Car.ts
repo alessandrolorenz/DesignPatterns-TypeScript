@@ -1,6 +1,6 @@
-import IVehicle from './IVehicle';
+import IVehicleCar from './IVehicleCar';
 
-export default class Car implements IVehicle {
+export default class Car implements IVehicleCar {
   constructor(
     color: string,
      year: number, 
@@ -17,8 +17,4 @@ export default class Car implements IVehicle {
     console.log(color, year, engine, seat);
     this.startVehicle();
   }
-  configurationMotorcycle(color: string, year: number, engine: number): void {
-    throw new Error('Method not implemented.');
-  }
-
 }
